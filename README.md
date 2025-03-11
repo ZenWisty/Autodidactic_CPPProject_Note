@@ -9,7 +9,7 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 2. 结构体内存对齐问题？
 3. C++从代码到可执行程序经历了什么？ 
 4. hello.c程序的编译过程
-5. 程序在执行int main(int argc, char *argv[])时的内存结构，你了解吗？ 
+5. 程序在执行int main(int argc, char *argv[])时的内存结构？ 
 6. main函数的返回值有什么值得考究之处吗？ 
 ### 1.2 区别类 
 1. 指针和引用的区别 
@@ -31,9 +31,9 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 17. C++中 const 和 static 的作用 
 18. C++的顶层 const 和底层 const 
 19. define、const、typedef、inline 的使用方法？他们之间有什么区别？ 
-20. 你知道 strcpy 和 memcpy 的区别是什么吗？
+20. strcpy 和 memcpy 的区别是什么？
 21. 数组名和指针（这里为指向数组首元素的指针）区别？ 
-22. 你知道数组和指针的区别吗？
+22. 数组和指针的区别？
 23. extern "C" 的用法 
 24. 野指针和悬空指针 
 25. 内联函数和宏定义的区别 
@@ -45,16 +45,16 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 31. C++中有几种类型的 new 
 32. static 的用法和作用？ 
 33. 指针和 const 的用法
-34. 你知道 const char* 与 string 之间的关系是什么吗？ 
+34. const char* 与 string 之间的关系？ 
 35. strcpy 函数和 strncpy 函数的区别？哪个函数更安全？
 36. 说一说 strcpy、sprintf 与 memcpy 这三个函数的不同之处
 37. 形参与实参的区别？
 38. 初始化和赋值的区别
 39. 定义和声明的区别 
 40. 值传递、指针传递、引用传递的区别和效率 
-41. C++中的指针参数传递和引用参数传递有什么区别？底层原理你知道吗？
+41. C++中的指针参数传递和引用参数传递有什么区别？底层原理？
 42. const 关键字的作用有哪些？ 
-43. 你知道 Debug 和 Release 的区别是什么吗？
+43.  Debug 和 Release 的区别是什么？
 44. 深拷贝与浅拷可以描述一下吗？
 45. 浅拷贝和深拷贝的区别 
 46. cout 和 printf 有什么区别？ 
@@ -78,11 +78,11 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 63. 对象复用的了解，零拷贝的了解
 64. 引用是否能实现动态绑定，为什么可以实现？
 65. 类如何实现只能静态分配和只能动态分配
-66. 你知道静态绑定和动态绑定吗？讲讲？
+66. 静态绑定和动态绑定？
 67. 动态编译与静态编译 
 68. 虚函数的代价是什么？
-69. 静态函数能定义为虚函数吗？常函数呢？说说你的理解
-70. 哪些函数不能是虚函数？把你知道的都说一说
+69. 静态函数能定义为虚函数吗？常函数呢？
+70. 哪些函数不能是虚函数？
 71. 什么是纯虚函数，与虚函数的区别？
 72. C++里的虚函数原理讲一下？
 73. 虚函数和纯虚函数的区别
@@ -108,19 +108,19 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 92. 拷贝构造函数和赋值运算符重载的区别？
 93. 什么情况会自动生成默认构造函数？ 
 94. 抽象基类为什么不能创建对象？
-95. 再说说你了解到的移动构造函数？
+95. 移动构造函数是什么？
 96. 什么是类的继承 
 97. 多继承的优缺点 
 98. 什么是虚拟继承
 99. 构造函数的执行顺序是什么？ 
-100. 什么情况下会合成构造函数？都说一说，你知道的都说一下 
+100. 什么情况下会合成构造函数？共有几种 
 101. 那什么时候需要合成拷贝构造函数呢？ 
 102. 一个类中的全部构造函数的扩展过程是什么？ 
 ### 1.5 内存管理 
 103. 类的对象存储空间？ 
 104. 简要说明C++的内存分区 
 105. 堆和栈的区别
-106. 你觉得堆快一点还是栈快一点？
+106. 堆快一点还是栈快一点？
 107. 什么是内存池，如何实现 
 108. 可以说一下你了解的C++的内存管理吗？
 109. C++中类的数据成员和成员函数内存分布情况 
@@ -128,7 +128,7 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 111. 全局变量和static变量的区别
 112. 静态成员与普通成员的区别是什么？
 113. 静态变量什么时候初始化
-114. 关于this指针你知道什么？全说出来 
+114. this指针是什么
 115. 几个this指针的易混问题 
 116. 内存泄漏的后果？如何监测？解决方法？ 
 117. 在成员函数中调用delete this会出现什么问题？对象还可以使用吗？
@@ -149,7 +149,7 @@ Autodidactic note of different cpp projects in modern computation, network, cpp 
 132. malloc、realloc、calloc的区别 
 133. delete和delete[]区别？
 ### 1.6 模板相关 
-1. C++模板是什么，你知道底层怎么实现的？ 
+1. C++模板是什么，底层怎么实现的？ 
 2. 模板函数和模板类的特例化 
 3. 模板类和模板函数的区别是什么？
 4. 模板和实现可不可以不写在一个文件里面？为什么？
